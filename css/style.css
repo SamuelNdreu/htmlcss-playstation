@@ -27,5 +27,27 @@ height: 1rem;
 }
 #console-img{
     height: 400px;
-    background-color: violet;
+    background-color: rgb(48, 45, 48);
 }
+#new-arrivals{
+    height: 600px;
+}
+#ps-plus-now{
+    background-color: darkgoldenrod;
+}
+.ps5-img{
+    height: 180px;
+    background-color: rgb(1, 204, 231);
+}
+.img-test-carousles{
+    height: 150px;
+    background-color: rgb(113, 125, 126);
+}
+.img-test{
+    height: 400px;
+    background-color: deeppink;
+}
+.img-plus{
+    width: 300px;
+}
+

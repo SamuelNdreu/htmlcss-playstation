@@ -33,26 +33,21 @@ header {
     width: 300px;
 }
 #jumbotron-center{
-    height: 600px;
-    background-color: aquamarine;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 #game-id-card img{
     border-radius: 1.5rem;
 }
 
-#console-img{
-    
-    
-}
+
 .ps5-img-part{
     height: 180px;
     background-color: blue;
 }
-.test-img{
-    height: 150px;
-    background-color: cadetblue;
-}
+
 .test-img-big{
     height: 250px;
     background-color: crimson;

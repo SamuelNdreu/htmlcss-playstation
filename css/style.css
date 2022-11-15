@@ -5,7 +5,12 @@ body {
 header {
     width: 100%;
 }
+.bg-darkgrey{
+    background-color: #1f1f1f;;
+}
+.bg-grey-custom{
 
+}
 .buy-orange{
     background-color: #cd3d0f;
     color: white;
@@ -36,6 +41,8 @@ header {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
+    
+    
 }
 
 #game-id-card img{
@@ -43,15 +50,7 @@ header {
 }
 
 
-.ps5-img-part{
-    height: 180px;
-    background-color: blue;
-}
 
-.test-img-big{
-    height: 250px;
-    background-color: crimson;
-}
 #ps-plus{
     background-color: #bebcbb;
 }

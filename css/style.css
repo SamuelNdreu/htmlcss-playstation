@@ -4,6 +4,11 @@ body {
 }
 header {
     width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+main{
+    padding-top: 120px;
 }
 footer{
     background-color: #00439c;
@@ -19,6 +24,7 @@ footer p img{
 section.jumpy img:hover{
     box-shadow: rgba(78, 81, 83, 0.9) 0px 0px 0px 3px;
     border-radius: 20px;
+    transition: ease-in 0.2s;
     transform: translateY(-10px);
     cursor: pointer;
 }
@@ -30,8 +36,11 @@ div img.jumpy-no-box:hover{
 .bg-darkgrey{
     background-color: #1f1f1f;;
 }
-.bg-grey-custom{
-
+.bg-secondary-custom{
+    background-color: #bebcbb;
+}
+.bg-dark-custom{
+    background-color: #161c3b;
 }
 .buy-orange{
     background-color: #cd3d0f;
@@ -57,7 +66,10 @@ div img.jumpy-no-box:hover{
     width: 20%;
     margin-left: 1.1rem;
 }
-
+.custom-social{
+    width: 60%;
+    
+}
 
 #jumbotron{
     background-image: url("../img/jumbo-bg.png");
@@ -78,12 +90,8 @@ div img.jumpy-no-box:hover{
 #game-id-card img{
     border-radius: 1.5rem;
 }
-#ps-plus{
-    background-color: #bebcbb;
-}
-#ps-now{
-    background-color: #161c3b;
-}
+
+
 
 
 

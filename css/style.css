@@ -5,6 +5,27 @@ body {
 header {
     width: 100%;
 }
+footer{
+    background-color: #00439c;
+}
+footer ul{
+    list-style-type: none;
+}
+
+footer p img{
+    width: 20px;
+    filter: invert(1%);
+}
+section.jumpy img:hover{
+    box-shadow: rgba(78, 81, 83, 0.9) 0px 0px 0px 3px;
+    border-radius: 20px;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+div img.jumpy-no-box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
 .bg-darkgrey{
     background-color: #1f1f1f;;
 }
@@ -28,6 +49,15 @@ header {
     width: 100px;
     margin-right: 1rem;
 }
+.inverted-color{
+    filter: invert(100%) sepia(100%) brightness(200%);
+}
+.sony-ie{
+    width: 20%;
+    margin-left: 1.1rem;
+}
+
+
 #jumbotron{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
@@ -44,26 +74,16 @@ header {
     
     
 }
-
 #game-id-card img{
     border-radius: 1.5rem;
 }
-
-
-
 #ps-plus{
     background-color: #bebcbb;
 }
 #ps-now{
     background-color: #161c3b;
 }
-footer{
-    background-color: #00439c;
-}
-footer ul{
-    list-style-type: none;
-    color: white
-}
+
 
 
 

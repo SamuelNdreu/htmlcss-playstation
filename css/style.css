@@ -1,59 +1,70 @@
-.sony-row {
+
+.buy-orange{
+    background-color: #cd3d0f;
+    color: white;
+}
+.buy-orange:hover{
+    background-color: beige;
+    color:black;
+}
+.logo-bar{
+    height: 45px;
+    width: 100%;
     background-color: black;
-    height: 2rem;
-    text-align: end;
 }
-
-.sony-row  img{
-height: 1rem;
+.logo-bar img{
+    width: 100px;
+    margin-right: 1rem;
 }
-
-.navbar {
-    margin-top: 2rem;
-}
-#jumbo-content,
 #jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position-x: center;
+    height: 675px;
+}
+#jumbo-content img{
+    width: 300px;
+}
+#jumbotron-center{
     height: 600px;
     background-color: aquamarine;
 }
 
-#card-img{
-    height: 200px;
-    background-color: red;
+#game-id-card img{
+    border-radius: 1.5rem;
 }
 
-#play5{
-    height: 300px;
-    background-color: rgb(118, 118, 138);
-}
 #console-img{
     height: 400px;
-    background-color: rgb(48, 45, 48);
+    background-color: rgb(28, 118, 179);
 }
-#new-arrivals{
-    height: 600px;
-}
-#ps-plus-now{
-    background-color: darkgoldenrod;
-    height: 500px;
-}
-.ps5-img{
+.ps5-img-part{
     height: 180px;
-    background-color: rgb(1, 204, 231);
+    background-color: blue;
 }
-.img-test-carousles{
+.test-img{
     height: 150px;
-    background-color: rgb(113, 125, 126);
+    background-color: cadetblue;
 }
-.img-test{
-    height: 400px;
-    background-color: deeppink;
+.test-img-big{
+    height: 250px;
+    background-color: crimson;
 }
-.img-plus{
-    width: 500px;
+#ps-plus{
+    background-color: #bebcbb;
 }
-.sale-games{
-    height: 700px;
-    background-color: yellowgreen;
+#ps-now{
+    background-color: #161c3b;
 }
+footer{
+    background-color: #00439c;
+}
+footer ul{
+    list-style-type: none;
+    color: white
+}
+
+
+
+
 

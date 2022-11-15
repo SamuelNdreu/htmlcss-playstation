@@ -22,6 +22,7 @@ section.jumpy img:hover{
     transform: translateY(-10px);
     cursor: pointer;
 }
+
 div img.jumpy-no-box:hover{
     transform: translateY(-10px);
     cursor: pointer;

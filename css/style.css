@@ -9,6 +9,7 @@ header {
 }
 main{
     padding-top: 120px;
+    
 }
 footer{
     background-color: #00439c;
@@ -89,6 +90,7 @@ div img.jumpy-no-box:hover{
 }
 #game-id-card img{
     border-radius: 1.5rem;
+    background-color: white;
 }
 
 
